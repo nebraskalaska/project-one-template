@@ -1,1 +1,45 @@
-/* Enter your Styles below! */
+
+body {
+	font-family: 'Didact Gothic', sans-serif;
+	background-image: url(../images/home_background.png);
+/* Center and scale the image nicely */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	/* Full height */
+  	height: 100%;
+  	width: 100%;
+}
+
+nav ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #db825b;
+	font-weight: bold;
+}
+
+a {
+	color: #db825b;
+}
+
+nav li {
+	display: inline;
+	text-align: center;
+	padding: 40px;
+	justify-content: center;
+}
+
+
+h1 {
+	font-size: 3em; 
+	text-decoration-line: none;
+	color: white;
+	letter-spacing: .125em;
+	font-weight: bolder;
+	text-shadow:
+		-1px -1px 0 #0054ff,
+		1px -1px 0 #0054ff,
+		-1px 1px 0 #0054ff,
+		1px 1px 0 #0054ff;
+}
