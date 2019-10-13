@@ -36,11 +36,6 @@ nav li {
   margin:10px;
 }
 
-.seagull {
-	margin-left: 40%;
-	margin-top: -5%;
-	width:100px;
-}
 
 .explainer.text {
 	padding-left: 75px;
@@ -48,12 +43,15 @@ nav li {
 	transform: rotate(349deg);
 }
 
+
+
 p {
  	font-size: 1em;
  	font-weight: bold;
  	line-height: 120%;
  	color: #0054ff;
  	padding-bottom: 25px;
+ 	letter-spacing: .075em;
 }
 
 h2 {
@@ -61,6 +59,7 @@ h2 {
  	font-weight: bold;
  	line-height: 130%;
  	color: #0054ff;
+ 	letter-spacing: .1em;
 }
 
 #marquee {
@@ -79,3 +78,38 @@ h1 {
 		-1px 1px 0 #0054ff,
 		1px 1px 0 #0054ff;
 	}
+
+/*Seagull Animation*/
+
+.seagull img {
+	max-width: 160px;
+}
+
+@import "compass/css3";
+
+@keyframes float {
+  from {
+    transform:translateY(8px) rotate3d(0,0,1,3deg);
+  }
+
+  to {
+     transform:translateY(-8px) rotate3d(0,0,1,0deg);
+  }
+}
+
+
+.seagull {
+  position:absolute;
+  top:12%;
+  left:40%;
+}
+
+.seagull {
+  position:relative;
+  animation-duration: 1s;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
