@@ -28,33 +28,23 @@ nav li {
 }
 
 
-#marquee {
-	margin-top: 78%;
-}
-
 .container {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 300px 300px;
+  grid-template-columns: 325px 325px 325px;
+  grid-template-rows: 250px 250px;
   grid-gap: .01rem;
+  margin:10px;
 }
 
-h1 {
-	font-size: 4.5em; 
-	text-decoration-line: none;
-	color: white;
-	letter-spacing: .125em;
-	font-weight: bolder;
-	text-shadow:
-		-1px -1px 0 #0054ff,
-		1px -1px 0 #0054ff,
-		-1px 1px 0 #0054ff,
-		1px 1px 0 #0054ff;
-	}
+.seagull {
+	margin-left: 40%;
+	margin-top: -5%;
+	width:100px;
+}
 
 .explainer.text {
 	padding-left: 75px;
-	margin-top: 30px;
+	margin-top: 65px;
 	transform: rotate(349deg);
 }
 
@@ -71,5 +61,21 @@ h2 {
  	font-weight: bold;
  	line-height: 130%;
  	color: #0054ff;
- 	text-align: center;
 }
+
+#marquee {
+	margin-top: 50%;
+}
+
+h1 {
+	font-size: 4.5em; 
+	text-decoration-line: none;
+	color: white;
+	letter-spacing: .125em;
+	font-weight: bolder;
+	text-shadow:
+		-1px -1px 0 #0054ff,
+		1px -1px 0 #0054ff,
+		-1px 1px 0 #0054ff,
+		1px 1px 0 #0054ff;
+	}
