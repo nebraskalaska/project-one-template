@@ -1,15 +1,12 @@
-
 body {
 	font-family: 'Didact Gothic', sans-serif;
-	background-image: url(../images/home_background.png);
-/* Center and scale the image nicely */
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	/* Full height */
-  	height: 100%;
-  	width: 100%;
+	background: url('../images/main background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
+
 
 nav ul {
 	margin-top: 20px;
@@ -31,8 +28,19 @@ nav li {
 }
 
 
+#marquee {
+	margin-top: 78%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  grid-gap: .01rem;
+}
+
 h1 {
-	font-size: 3em; 
+	font-size: 4.5em; 
 	text-decoration-line: none;
 	color: white;
 	letter-spacing: .125em;
@@ -42,4 +50,26 @@ h1 {
 		1px -1px 0 #0054ff,
 		-1px 1px 0 #0054ff,
 		1px 1px 0 #0054ff;
+	}
+
+.explainer.text {
+	padding-left: 75px;
+	margin-top: 30px;
+	transform: rotate(349deg);
+}
+
+p {
+ 	font-size: 1em;
+ 	font-weight: bold;
+ 	line-height: 120%;
+ 	color: #0054ff;
+ 	padding-bottom: 25px;
+}
+
+h2 {
+ 	font-size: 1.75em;
+ 	font-weight: bold;
+ 	line-height: 130%;
+ 	color: #0054ff;
+ 	text-align: center;
 }
