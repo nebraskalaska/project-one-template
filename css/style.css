@@ -1,17 +1,17 @@
 
 
-/*Home*/
+/*HOME*/
 
-body {
+	/*NAV*/
+
+body.home {
 	font-family: 'Didact Gothic', sans-serif;
 	background: url('../images/main background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
-	height: auto;
 }
-
 
 nav ul {
 	margin-top: 30px;
@@ -29,8 +29,8 @@ nav li {
 }
 
 a {
-		color: #d9794f; 
-		font-weight: lighter;
+	color: #d9794f; 
+	font-weight: 900;
 }
 
 a.active {
@@ -39,7 +39,7 @@ a.active {
 	font-weight: 900;
 }
 
-
+/*CONTENT*/
 
 .container {
   display: grid;
@@ -55,7 +55,6 @@ a.active {
 	margin-top: 65px;
 	transform: rotate(349deg);
 }
-
 
 
 p {
@@ -112,7 +111,6 @@ h1 {
   }
 }
 
-
 .seagull {
   position:absolute;
   top:12%;
@@ -129,4 +127,42 @@ h1 {
   animation-play-state: running;
 }
 
-/*About*/
+/*ABOUT*/
+
+body.about {
+	font-family: 'Didact Gothic', sans-serif;
+	background: #fff
+}
+
+.about.container {
+  display: grid;
+  grid-template-columns: 600px 600px ;
+  grid-template-rows: 300px 300px;
+  grid-gap: .01rem;
+  margin:30px;
+}
+
+/*CALENDAR*/
+
+body.calendar {
+	font-family: 'Didact Gothic', sans-serif;
+	background: #fff
+}
+
+/*PICS*/
+
+body.pics {
+	font-family: 'Didact Gothic', sans-serif;
+	background: #fff
+}
+
+/*MERCH*/
+
+body.merch {
+	font-family: 'Didact Gothic', sans-serif;
+	background: #fff
+}
+
+
+
+
