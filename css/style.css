@@ -1,3 +1,7 @@
+
+
+/*Home*/
+
 body {
 	font-family: 'Didact Gothic', sans-serif;
 	background: url('../images/main background.png');
@@ -5,27 +9,36 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+	height: auto;
 }
 
 
 nav ul {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 20px;
 	text-align: center;
-	color: #db825b;
 	font-weight: bold;
-}
-
-a {
-	color: #db825b;
 }
 
 nav li {
 	display: inline;
 	text-align: center;
 	padding: 40px;
+	color: #d9794f;
 	justify-content: center;
 }
+
+a {
+		color: #d9794f; 
+		font-weight: lighter;
+}
+
+a.active {
+	color: #87e8eb;
+	text-decoration: none;
+	font-weight: 900;
+}
+
 
 
 .container {
@@ -79,11 +92,13 @@ h1 {
 		1px 1px 0 #0054ff;
 	}
 
-/*Seagull Animation*/
+/*Seagull*/
 
 .seagull img {
 	max-width: 160px;
 }
+
+/*Seagull Animation*/
 
 @import "compass/css3";
 
@@ -113,3 +128,5 @@ h1 {
   animation-direction: alternate;
   animation-play-state: running;
 }
+
+/*About*/
