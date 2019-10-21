@@ -12,6 +12,16 @@ body.home {
   background-position: center;
 }
 
+h3 {
+  color: #d9794f;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: #87e8eb;
+  font-size: .75em;
+}
+
 nav ul {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -183,6 +193,7 @@ body.calendar {
   font-family: 'Didact Gothic', sans-serif;
 }
 
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -197,10 +208,22 @@ body.calendar {
 
   border: 0px;
   text-align: center;
-  padding: 20px 20px 20px 20px;
+  padding: 30px 30px 30px 30px;
   font-size: 30px;
-
 }
+
+.grid-container p {
+  padding: 25px 10px 10px 10px;
+  font-size: .5em;
+}
+
+.grid-container h3 {
+  padding: 50px 20px 20px 20px;
+}
+
+.grid-container h4 {
+  padding: 20px 20px 4px 20px;
+}'
 
 .item1 {
   grid-row-start: 1;
@@ -209,8 +232,8 @@ body.calendar {
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 330px;
+  height: 330px;
   perspective: 1000px;
 }
 
@@ -260,7 +283,6 @@ body.grid {
   margin: 0;
   padding: 0;
 }
-
 
 .heading {
     text-align: center;
