@@ -12,6 +12,7 @@ body.home {
   background-position: center;
 }
 
+
 h3 {
   color: #d9794f;
   font-size: 1.5em;
@@ -164,7 +165,7 @@ body.about {
   max-width: 83%;
   margin-top:100px;
   padding-left: 70px;
-    transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 
 .about.text {
@@ -197,13 +198,22 @@ body.calendar {
   font-family: 'Didact Gothic', sans-serif;
 }
 
+.calendar-text {
+  margin-top: 240px;
+  text-align: center;
+}
+
+.calendar-text h2 {
+  color: #d9794f;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   height: 900px;
-  grid-gap: 20px;
+  grid-gap: 10px;
   padding: 20px;
-  margin: 200px 50px 50px 50px;
+  margin: 20px 50px 30px 50px;
   border: 0px;
 }
 
@@ -211,7 +221,7 @@ body.calendar {
 
   border: 0px;
   text-align: center;
-  padding: 30px 30px 30px 30px;
+  padding: 20px 20px 20px 20px;
   font-size: 30px;
 }
 
@@ -370,7 +380,6 @@ body.grid {
 body.contact {
   font-family: 'Didact Gothic', sans-serif;
 }
-
 
 input[type=text], select, textarea {
   width: 100%;
