@@ -48,6 +48,9 @@ a.active {
   font-weight: 900;
 }
 
+
+
+
 /*CONTENT*/
 
 .container {
@@ -152,14 +155,14 @@ body.about {
   grid-template-columns: 600px 600px ;
   grid-template-rows: 200px 200px;
   grid-gap: .01rem;
-  margin:30px;
+  margin:50px;
 
 }
 
 .collage img {
   height: auto;
-  max-width: 80%;
-  margin-top:50px;
+  max-width: 83%;
+  margin-top:100px;
   padding-left: 70px;
     transform: rotate(10deg);
 }
@@ -167,6 +170,7 @@ body.about {
 .about.text {
   padding-left: 40px;
   padding-right: 80px;
+  margin-top: -5px;
 }
 
 .about h2 {
@@ -174,7 +178,7 @@ body.about {
 }
 
 
-#flowers {
+#flowers img {
     -webkit-animation: rotation 3s infinite linear;
 }
 
@@ -192,7 +196,6 @@ body.about {
 body.calendar {
   font-family: 'Didact Gothic', sans-serif;
 }
-
 
 .grid-container {
   display: grid;
@@ -218,12 +221,12 @@ body.calendar {
 }
 
 .grid-container h3 {
-  padding: 50px 20px 20px 20px;
+  padding: 70px 20px 20px 20px;
 }
 
 .grid-container h4 {
-  padding: 20px 20px 4px 20px;
-}'
+  padding: 20px 20px 0px 20px;
+}
 
 .item1 {
   grid-row-start: 1;
@@ -390,7 +393,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #0054ff;
 }
 
 .form-container {
