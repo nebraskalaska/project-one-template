@@ -1,28 +1,29 @@
-# Project One
-This is the template repository for the first major project in the Design 341 class at PSU.
+Image Credits 
 
-## To use this template:
+Food Cart Pod
+By TIDBIT FOOD FARM AND GARDEN
 
-1. Click the "Fork" button in the upper right corner of this repository.
+Two People Eating At Food Cart Pod
+By Teri Colbi/Chicago Tribune
 
-2. Click on "Settings" and change the name to something better, like "project-one-four-poops", click the rename buton to save your changes.
+Woman Ordering At Food Cart
+(AP Photo/Nigel Duara)(The Associated Press)
 
-3. Open GitHub Desptop
+Group of Women on Bicycles
+SouthSound Talk, Story by By Margo Greenman. Photographer Unknown. 
+http://www.southsoundtalk.com/2014/07/21/velofemmes-tacomas-womens-cycling-group/
 
-4. In the upper drop-down menu, choose: File > Clone Repository
+Woman smiling at Camera With Wings
+Eric Thornburg/No.Lens.Cap
 
-5. Mae sure the GitHub.com tab is highlighted with a blue underline
+Cyclocross
+Cyclocross Photos
 
-6. click on the repository you just forked. If it doesn't show up, try searching for it in the filter field.
+Fancy Bike Ride
+Fancy Women Bike Ride
 
-7. Choose a Local Path or keep it at the default which goes to Documents/GitHub/ on your hard drive.
+About Page
+Noelle Otto
 
-8. Click the Clone button on the bottom to have GitHub Desktop fetch the files from GitHub.com and clone them to your hard drive.
-
-9. In the Upper drop down menu choose: Repository > Open in Sublime Text (or: Open in External Text Editor)
-
-10. Edit, save, commit, and push your files. Lather, rinse, repeat!
-
-
-
- 
+Woman with Bike at Food Cart
+CJ Graglia
